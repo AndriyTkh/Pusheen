@@ -1,0 +1,4 @@
+repository "Pusheen@OtherGameforYou@cloud"
+  path "/"
+    br "/main"
+    co "/main"
