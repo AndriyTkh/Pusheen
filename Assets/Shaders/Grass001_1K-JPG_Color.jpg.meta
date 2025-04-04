@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f89bd6553cc99bd4f9b3ec01618dc010
+guid: 5de70186eb21d4d43a48c0044d355408
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4046270838404476114
-    second: Adult_Eidolon_Wyrm2_0
+      213: -5554186247891331909
+    second: Grass001_1K-JPG_Color_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Adult_Eidolon_Wyrm2_0
+      name: Grass001_1K-JPG_Color_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 596
-        height: 236
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2dcee14b3ed372830800000000000000
-      internalID: 4046270838404476114
+      spriteID: bb4d31ee8019be2b0800000000000000
+      internalID: -5554186247891331909
       vertices: []
       indices: 
       edges: []
@@ -170,7 +170,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Adult_Eidolon_Wyrm2_0: 4046270838404476114
+      Grass001_1K-JPG_Color_0: -5554186247891331909
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

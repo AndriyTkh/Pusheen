@@ -22,7 +22,7 @@ public class Jump : MonoBehaviour
 
         if (_entryJump)
         {
-            _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, 0);
+            _rb.velocity = new Vector2(_rb.velocity.x, 0);
             _rb.AddForce(Vector2.up * 8 * _rb.gravityScale, ForceMode2D.Impulse);
 
             SoundManager.Instance.PlaySound2D("Player-jump");
@@ -64,7 +64,7 @@ public class Jump : MonoBehaviour
             {
                 _jumpBufferCounter = -1;
                 _coyoteTime = -1;
-                _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, 0);
+                _rb.velocity = new Vector2(_rb.velocity.x, 0);
                 _rb.AddForce(Vector2.up * _jumpForce * _rb.gravityScale, ForceMode2D.Impulse);
 
                 //SoundManager.Instance.PlaySound2D("Player-jump");

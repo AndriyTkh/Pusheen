@@ -35,6 +35,6 @@ public class RespawnManager : MonoBehaviour
         Instantiate(particl, player.transform.position, Quaternion.identity);
         player.transform.position = respawnPoint.position;
         player.transform.rotation = respawnPoint.rotation;
-        player.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+        player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
     }
 }

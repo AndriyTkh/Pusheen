@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class TextAppear : MonoBehaviour
 {
@@ -13,7 +13,7 @@ public class TextAppear : MonoBehaviour
     private float _allDis;
 
 
-    public TextMeshPro _textMeshPro;
+    public Text _textMeshPro;
     private Transform _player;
 
     public bool _soundy = true;

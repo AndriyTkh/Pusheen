@@ -57,13 +57,13 @@ public class PlayerWalk : MonoBehaviour
         //Add force part
 
         _onGround = _collisionRetriever.OnGround;
-        _velocity = _rb.linearVelocity;
+        _velocity = _rb.velocity;
 
         _acceleration = _onGround ? _maxAcceleration : _maxAirAcceleration;
         _maxSpeedChange = _acceleration * Time.deltaTime;
         _velocity.x = Mathf.MoveTowards(_velocity.x, _desiredVelocity.x, _maxSpeedChange);
 
-        _rb.linearVelocity = _velocity;
+        _rb.velocity = _velocity;
 
         //Add RB rotation
 
