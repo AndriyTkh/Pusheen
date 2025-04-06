@@ -24,14 +24,14 @@ public class PixelPerfectFollow : MonoBehaviour
 
         //float offset = transform.position.x % unitsPerPixel;
 
-        transform.position = target.position + new Vector3(0, 2, -10);
+        //transform.position = target.position + new Vector3(0, 2, -10);
 
 
         float snappedX = Mathf.Round(transform.position.x / unitsPerPixel) * unitsPerPixel;
         float snappedY = Mathf.Round(transform.position.y / unitsPerPixel) * unitsPerPixel;
 
 
-        objScrean.transform.localPosition = new Vector3(snappedX - transform.position.x, snappedY - transform.position.y, 5);
+        objScrean.transform.localPosition = (new Vector3(snappedX - transform.position.x, snappedY - transform.position.y, 5));
 
 
         // Vector3 screanOffset = pixelCamera.position - transform.position;
